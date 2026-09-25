@@ -1,0 +1,35 @@
+question_id,category,text,options,correct_index
+
+q001,Numeracy,What is 12 squared?,144|124|132|164,0
+
+q002,Numeracy,Which of these is a square number?,45|49|54|60,1
+
+q003,Numeracy,Solve for x: 2x + 4 = 12,4|6|8|2,0
+
+q004,Numeracy,Solve for x: 3x - 5 = 10,3|5|10|15,1
+
+q005,Numeracy,What is the square root of 81?,7|8|9|10,2
+
+q006,Company Policies,How many days notice must you give for annual leave under the standard policy?,1 working day|5 working days|Double the length of leave requested|No notice required,2
+
+q007,Company Policies,Who should you contact first if you are unable to attend work due to illness?,HR Director|Your line manager|The CEO|A colleague,1
+
+q008,Company Policies,Where can you find the full expenses policy?,It is not written down|The staff handbook on the intranet|Ask a colleague to guess|It changes every week,1
+
+q009,Health & Safety,What should you do first if you discover a fire in the office?,Try to put it out yourself|Raise the alarm and evacuate|Finish your current task first|Take a photo for the report,1
+
+q010,Health & Safety,How often should a workstation display screen equipment (DSE) assessment be reviewed?,Never|Only when you join|Periodically or when your setup changes|Every 10 years,2
+
+q011,Health & Safety,Who is responsible for reporting a workplace accident?,Only the person injured|Only their manager|Anyone who witnesses or is involved in it|Nobody - it is optional,2
+
+q012,Data Protection,Under data protection law personal data should be kept for how long?,Forever just in case|No longer than necessary for its purpose|Exactly 1 year always|Until the server runs out of space,1
+
+q013,Data Protection,What should you do if you accidentally send a customer's personal data to the wrong recipient?,Ignore it - no harm done|Report it as a data breach immediately|Wait to see if anyone notices|Delete your own copy only,1
+
+q014,Data Protection,Which of these is an example of personal data?,A company's VAT number|An anonymised statistic|An employee's home address|The office postcode on the website,2
+
+q015,Workplace Ethics,If you notice a colleague breaching company policy what should you do?,Ignore it - it's not your business|Raise it through the appropriate reporting channel|Post about it on social media|Confront them publicly,1
+
+q016,Workplace Ethics,Accepting a lavish gift from a supplier during a live tender process is:,Always fine if under GBP50|A potential conflict of interest that should be declared|Only a problem if the supplier loses the tender|Required to be polite,1
+
+q017,Workplace Ethics,What is the best description of a whistleblowing policy?,A way to report minor complaints about lunch|A protected route to raise serious wrongdoing|A policy about noise in the office|A performance review process,1
