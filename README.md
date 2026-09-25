@@ -42,9 +42,9 @@ The application is built around a small set of screens, navigated from a
 central Home screen. The wireframes below show the planned layout and user
 journey.
 
-[INSERT FIGMA WIREFRAME SCREENSHOTS HERE - Home screen, Start Quiz screen,
-Quiz Question screen, and Manage Question Bank screen. Optional link to the
-Figma file: INSERT LINK]
+
+<img width="1377" height="674" alt="Screenshot 2026-09-25 at 17 11 58" src="https://github.com/user-attachments/assets/3ce56d16-3dbd-42c5-9c8c-afa0c8a977cd" />
+
 
 ### 2.2 Functional and Non-Functional Requirements
 
@@ -64,7 +64,7 @@ Figma file: INSERT LINK]
 
 | ID | Requirement |
 |----|-------------|
-| NFR1 (Usability) | The GUI is navigable without training, with legible input fields in both light and dark mode. |
+| NFR1 (Usability) | The GUI is navigatable without training, with legible input fields in both light and dark mode. |
 | NFR2 (Reliability) | The application handles missing or malformed data files gracefully - a bad row is skipped with a warning, not a crash. |
 | NFR3 (Maintainability) | Business logic (validation, scoring, persistence) is kept separate from the GUI, so it can be tested and reused without Tkinter. |
 | NFR4 (Performance) | The application responds to user actions (loading the question bank, scoring a quiz) without a perceptible delay. |
@@ -254,10 +254,12 @@ immediately, while the GUI is checked by hand first.
 | Name field visibility (dark mode) | Open Start Quiz screen with system dark mode enabled | Name entry box is clearly visible with a solid border | Border was black on a dark background, effectively invisible | Fail |
 | Name field visibility (dark mode, after fix) | Same as above, after adding an explicit white background and grey outline | Name entry box is clearly visible with a solid border | As expected | Pass |
 
-[INSERT SCREENSHOT: name field before fix, black border invisible on dark
-background]
-[INSERT SCREENSHOT: name field after fix, white background with clear
-border]
+
+<img width="622" height="270" alt="Screenshot 2026-09-11 at 02 22 43" src="https://github.com/user-attachments/assets/52180cc7-1c98-4c2b-b027-c1fa6b478f57" />
+
+
+<img width="634" height="366" alt="Screenshot 2026-09-11 at 02 32 38" src="https://github.com/user-attachments/assets/e9b71112-50ab-4d11-a11a-06e4072babe7" />
+
 
 #### 4.2.2 Unit Testing Outcome
 
@@ -265,13 +267,17 @@ As an example of this process: `test_questions.py` was written before
 `models.py` existed at all, so the first run failed on collection with
 `ModuleNotFoundError: No module named 'models'`.
 
-[INSERT SCREENSHOT: Red - ModuleNotFoundError, models.py does not exist yet]
+
+<img width="1088" height="804" alt="Screenshot 2026-09-10 at 21 39 26 2" src="https://github.com/user-attachments/assets/64a8fde6-ed94-482e-b338-821e72e31b99" />
+
 
 Once the `Question` class was implemented in `models.py`, the same test
 file passed - 21 tests in total, covering `test_validation.py` and
 `test_questions.py`.
 
-[INSERT SCREENSHOT: Green - Question implemented, 21 passed]
+
+<img width="883" height="766" alt="Screenshot 2026-09-10 at 22 14 46" src="https://github.com/user-attachments/assets/ec179042-3dd7-4ed0-830b-61dd4da85687" />
+
 
 The same Red-Green approach was followed for the rest of `models.py`,
 `storage.py`, and `quiz_score_and_progress.py`, taking the finished suite to
